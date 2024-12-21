@@ -10,3 +10,13 @@ Basically, during this course we could get into a journey about:
 - Database using postgresql
 - Dockering your application using nginx to run frontend server
 - Deploy your application creating a docker-compose with database, backend and frontend
+
+
+
+To run the *final-project* which is a ToDo app 
+change your IP in .env (----)
+- Run with docker (faster)
+    - Use a docker command to build it all 
+        → docker compose up --build 
+    - After upping containers, It will be necessary to run migration by hands 
+        → npx prisma migrate dev (it will be necessary to install prisma first) 
